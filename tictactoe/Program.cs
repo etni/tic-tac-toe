@@ -78,8 +78,7 @@ namespace tictactoe
 
         static void PrintBoard()
         {
-            var i = 1;  
-
+            Console.Clear();
             foreach(var row in board)
             {
                 Console.WriteLine(" {0}  {1}  {2} ", row[0] ?? ".", row[1] ?? ".", row[2] ?? ".");
